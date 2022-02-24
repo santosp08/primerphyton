@@ -9,7 +9,7 @@ def inicio():
 
 @var_app.route("/cur")
 def cur():
-    return render_template('frontend/cur.html')
+    return render_template('cur.html')
 
 if __name__== "__main__":
     var_app.run(debug=True,port=3000)
